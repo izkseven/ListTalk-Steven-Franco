@@ -1,0 +1,630 @@
+*{
+    margin: 0% auto;
+    font-family: 'Raleway', sans-serif;
+    
+}
+/* Seccion de header
+------------------------------------------------------------------------- */
+
+header{
+    width: 100%;
+    background-color: rgb(12, 56, 114);
+    background-position-x: center;
+    background-size: cover;
+}
+header .navbar-toggler{
+    margin-left: 3rem;
+    opacity: 0.8;
+}
+header .navbar-expand-lg .navbar-collapse{
+    justify-content: center;   
+    text-shadow: black 1px 1px 2px ;
+}
+header .navbar-collapse a{
+    color: white;
+    font-size: 1.5em;
+    
+}
+header .navbar-collapse a:hover{
+    font-size: 1.8em;
+}
+header .navbar-collapse li{
+    padding: 1em 4em;
+}  
+header .navbar-collapse img{
+    padding: 0.2em 0 0.2em 0;
+}
+header .texto-flotante{
+    position: absolute;
+    bottom: 8em;
+    padding: 0px 0px 3em 2.85em;
+    text-align: left;
+}
+header .texto-flotante img{
+    padding-bottom: 1em;
+    width: 70%;
+}
+header .texto-flotante h5{
+    color: white;
+    text-shadow: 1px 1px rgb(6, 23, 39);
+    text-shadow: 1px 1px rgb(14, 50, 73);
+}
+.h5, h5{
+    font-size: 2em;
+}
+.bg-blue{
+    color: #cae7ec;
+    display: inline-block;
+}
+.bg-whit{
+    color: white;
+    display: inline-block;
+}
+
+/* Seccion Responsive Header 
+------------------------------------------------------------------------- */
+
+/* Tablets en horizonal y escritorios normales */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    header .texto-flotante{
+        position: absolute;
+        bottom: 3em;
+    }
+} 
+ 
+/* Móviles en horizontal o tablets en vertical */
+
+@media (max-width: 767px) {
+
+    header .navbar-toggler{
+        background-color: #03224666;
+    }
+    .carousel{
+        min-width: 350px;
+        max-width: 767px;
+        position: relative;
+        margin: 0;
+    }
+    header .navbar-expand-lg .navbar-collapse{
+        text-shadow: black 1px 1px 2px ;
+        position: fixed;
+    }
+    #navbar-nav{
+        display: inline;
+    }
+    header .fixed-top{
+    text-align: left;
+    }
+    header .navbar-collapse a{
+        color: white;
+        background-color: #021a3879;
+        font-size: 1rem;
+        text-align: left;
+        padding: 0 1em;
+    }
+    header .navbar-collapse b{
+        padding: 0.5em 1.5em;
+    }
+    header .navbar-collapse li{
+        padding: 0.2rem;
+        margin-left: 3rem;
+    }  
+    header .texto-flotante{
+        position: absolute;
+        bottom: 0.2em;
+        padding: 0px 0px 2.4em 2.85em;
+        text-align: left;
+    }
+    header .texto-flotante img{
+        padding-bottom: 1em;
+        width: 45%;
+    }
+    header .texto-flotante h5{
+        font-size: 0.7em;
+    }
+}
+
+/* Seccion de Nosotros 
+------------------------------------------------------------------------- */
+
+#nosotros{
+    width: 100%;
+    background: url(../imgs/1-banner.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+#nosotros .fond {
+    
+    width: 70em;
+    margin: 3em;
+    position: absolute;
+    max-width: 1140px;
+    border: rgb(195, 224, 241) 7px ridge;
+    max-height: 660px;  
+}
+#nosotros .col-6{
+    padding: 1em;
+    text-align: center;
+    vertical-align: middle;
+}
+#nosotros .rtext {
+    text-align: center;
+    padding: 9em 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    padding: 7.2em 2em;
+}
+#nosotros .rtext h2{
+    color: #aaceec ;
+    text-shadow: 2px 2px rgba(0, 60, 128, 0.87);
+    padding-bottom: 0.2em;
+    font-size: 3.3em;
+}
+#nosotros .rtext .stext{
+    margin: 4em 0;
+}
+#nosotros img{
+    max-width: 20em;
+    margin: 7.2em 7em;
+    border: #8cb5d6 7px ridge;
+}
+#nosotros .down{
+    text-shadow: 2px 2px rgb(4, 30, 70);
+}
+
+/* Seccion Responsive Nosotros
+------------------------------------------------------------------------- */
+
+/* escritorios normales */
+
+@media (min-width: 990px) and (max-width: 1199px){
+
+    #nosotros .fond {
+        width: 85%;
+        margin: 3em;
+        position: absolute;
+    }
+    #nosotros .rtext {
+        padding: 1em;
+    }
+    #nosotros .rtext h2{
+        font-size: 2rem;
+        width: 70%;
+        margin: 1em 1em 0 0.5em;
+    }
+    #nosotros .rtext{
+        padding: 2.5em 0;
+    }
+    #nosotros h3{
+        font-size: 1.5rem;
+        width: 80%;
+        margin: 0 0 1em 0;
+    }
+    #nosotros img{
+        width: 15em;
+        padding: 0;
+        margin: 6em 0.1em 6em 6em;
+    }
+}
+/* Tablets en horizonal  */
+
+@media (min-width: 768px) and (max-width: 990px) {
+
+    #nosotros .fond {
+        width: 89%;
+        height: 80%;
+    }
+    #nosotros .rtext {
+        padding: 1em;
+    }
+    #nosotros .rtext h2{
+        font-size: 2rem;
+        width: 70%;
+        margin: 1em 1em 0 0.5em;
+    }
+    #nosotros .rtext{
+        padding: 2.5em 0;
+    }
+    #nosotros h3{
+        font-size: 1.5rem;
+        width: 80%;
+        margin: 0 0 1em 0;
+    }
+    #nosotros img{
+        width: 15em;
+        padding: 0;
+        margin: 6em 0.1em 6em 6em;
+    }
+} 
+ 
+/* Móviles en horizontal o tablets en vertical */
+
+@media (max-width: 767px) {
+    
+    #nosotros .fond {
+        width: 80%;
+        margin: 3em;
+        position: absolute;
+        height: 80%;  
+    }   
+    #nosotros .col-6{
+        text-align: center;
+        vertical-align: middle;
+        width: 100%;
+        margin: 0%;
+    }
+    #nosotros .rtext {
+        text-align: center;
+        position: relative;
+        padding: 2em 5em;
+        min-width: -webkit-fill-available;
+    }
+    #nosotros .rtext h2{
+        padding-bottom: 0.5em;
+        font-size: 2rem;        
+    }
+    #nosotros h3{
+        font-size: 1.5rem;       
+    }
+    #nosotros .rtext .stext{
+        margin: 4em 0;
+    }
+}   
+
+/* Seccion de Servicios 
+------------------------------------------------------------------------- */
+
+#servicios{
+    width: 100%;
+    background:url(../imgs/banner-5.png);
+    background-position-x: center;
+    background-size: cover;
+    justify-content: center;
+}
+#servicios h2{
+    font-size: 2.8rem;
+    text-align: center;
+    padding: 0.8em 0.3em 0.2em 0.3em;
+    color: white;
+    text-shadow: 1.5px 1px black;
+}
+#servicios h3{
+    text-align: center;
+    padding: 0.5em 0 0 0;
+    text-shadow: rgb(45, 82, 105) 1px 1px;
+}
+#servicios .rounded{
+    border: solid 2px rgb(8, 61, 85);
+    width: 18rem;
+}
+#servicios .img-back-item{
+    position: relative;
+    overflow: hidden;
+}
+#servicios .img-back-item:hover .img-back{
+    transform: translateY(0%);  
+}
+#servicios .img-back-item:hover .img-b{
+    transform: scale(1.5);
+}
+#servicios .img-b{
+    transition: all 0.5s ;
+}
+#servicios .img-back{
+    position: absolute;
+    bottom: 0;
+    max-width: 18.7em;
+    padding: 0 0.1rem;
+    background-color: rgba(27, 58, 87, 0.397);
+    height: 25.7em;
+    color: #ffffff;
+    transform: translateY(100%);
+    transition: all 0.5 ease-out;
+}
+#servicios .img-back h2{
+    font-size: 2.3rem;
+}
+#servicios .img-back h2 a{
+    color: rgb(30, 91, 129);
+    text-shadow: rgb(255, 255, 255) 0.03em 0.03em;
+}
+#servicios h3{
+    color: white;
+    text-shadow: rgb(0, 20, 39) 0.1em 0.1px;
+}
+#servicios .card{
+    background: url(../imgs/back-card-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: inset rgb(1, 53, 131) 0.02em;
+    border-radius: 15px;
+    box-shadow: rgb(219, 219, 219) 2px 2px;
+    width: 22rem;
+}
+
+/* Seccion de Responsive Servicios 
+------------------------------------------------------------------------- */
+
+/* Tablets en horizonal y escritorios normales */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    #servicios .rounded{
+    width: 10.6rem;
+    }
+    #servicios h2{
+        font-size: 2.1rem;
+        padding-bottom: 2rem;
+    }
+    #servicios h3{
+        padding-top: 0.1em;
+    }
+    #servicios .card{
+    width: 13rem;
+    height: 20.5rem;
+    margin-bottom: 2em;
+    }
+}   
+ 
+/* Móviles en horizontal o tablets en vertical */
+
+@media (max-width: 767px) {
+
+    #servicios .rounded{
+        position: absolute;
+        visibility: hidden;
+    }
+    #servicios .py-5{
+        padding: 0 0.1em;
+    }
+    #servicios .row{
+        bottom: 2.5em;
+    }
+    #servicios .img-back h2{
+        font-size: 2.3rem;
+    }
+    #servicios .card{
+        margin: 2em 0 0 0;
+        width: 100%;
+    }
+    #servicios .col-md-4{
+        margin: 1em 0 0 0;
+        padding: 0 5rem;
+    }
+}   
+
+/* Seccion de Registro
+------------------------------------------------------------------------- */
+
+#formulario{
+    width: 100%;
+    background: url(../imgs/1-banner.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding-top: 1%;
+    letter-spacing: .05rem; 
+    max-height: 990px;
+}
+#formulario .p-6 {
+    padding: 7.6rem 7rem;
+    background-color: #0564960d;
+}
+#formulario .contact-box {
+    padding: 3rem;
+}
+#formulario .font-weight-bold{
+    color: #104b5f;
+}
+#formulario h3{
+    font-size: 2.4em;
+}
+#formulario .mt-5, .my-5{
+    color: black;
+    font-size: 18px;
+}
+#formulario .form-group{
+    color: #0d4457;
+}
+#formulario .btn {
+    padding: 0.6rem 1.7rem;
+    background-color: #076a8b;
+}
+#formulario .form-control {
+    background-color:  #ffffff;
+    border: 1px solid #105b74;
+    border-radius: .2rem;
+    padding: 1.5rem 1rem;
+}
+#formulario .register-bg {
+    background-image: url('../imgs/register.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position-x:center ;
+}
+#formulario .testd {
+    bottom: 10px;
+}
+#formulario .first-item{
+    display: flex!important;
+}
+#formulario .shadow-lg{
+    border: #05639656 solid 7px;
+}
+#formulario .container, .container-lg, .container-md, .container-sm{
+    max-height: 100%;
+}
+
+/* Seccion de Responsive Registro */
+
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    #formulario .register-bg {
+        max-width: 0px;
+        visibility: hidden;
+    }
+    #formulario .form-control {
+        display: inline;
+        }
+    #formulario .p-6 {
+        padding: 3em;
+        background-color: #b3c5d1e5;
+    }
+} 
+
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+
+@media (max-width: 767px) {
+    #formulario{   
+         max-height: 0%;
+    }
+    #formulario .register-bg {
+        max-width: 0px;
+        visibility: hidden;
+    }
+    #formulario .p-6 {
+        padding: 0.5em;
+        background-color: #b3c5d1ec;
+    }
+    #formulario .form-control {
+        background-color:  #e9e9e9;
+        text-align: left;
+    }
+    #formulario .width-100 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1199px)  { 
+    
+    .register-bg {
+        max-width: 0px;
+        visibility: hidden;
+    }
+
+}
+
+/* Seccion de Contacto 
+------------------------------------------------------------------------- */
+
+#contacto{
+    width: 100%;
+    color: white;
+    bottom: 1em;
+    background-color: rgb(20, 23, 27);
+}
+#contacto .titlee h3{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1em;
+    color: rgb(56, 119, 158);
+    text-shadow: black 1px 1px;
+}
+#contacto .contacto-columna h3{
+    padding: 0.4em 0;
+    color: rgb(56, 119, 158);
+    text-shadow: black 1px 1px;
+}
+#contacto .info-main p{
+    display: inline-block;
+}
+#contacto .contacto-columna{
+    padding: 1em 0 3em 0;
+}
+#contacto .redes{
+    display: inline-block;
+}
+#contacto .redes img{
+    margin: 0.2em;
+}
+#contacto .btn-secondary{
+    background-color: rgb(41, 99, 136);
+}
+
+/* Seccion de Responsive contacto
+------------------------------------------------------------------------- */
+
+
+/* Tablets en horizonal y escritorios normales */
+
+@media (min-width: 768px) and (max-width: 999px) {
+
+    #contacto{
+        bottom: 1em;
+    }
+    #contacto .titlee h3{
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 1em;
+    }
+    #contacto .contacto-columna h3{
+        padding: 0.4em 0;
+    }
+    #contacto .info-main p{
+        display: inline-block;
+    }
+    #contacto .contacto-columna{
+        padding: 1em 0 3em 0;
+    }
+    #contacto .redes img{
+        margin: 0.2em;
+    }
+    #contacto .cont-fn{
+        display: inline-table;
+        padding:0 15em;
+        text-align: center;
+    }
+} 
+ 
+/* Móviles en horizontal o tablets en vertical */
+
+@media (max-width: 767px) {
+
+    #contacto{
+        width: 100%;
+        bottom: 1em;
+    }
+    #contacto .titlee h3{
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 1em;
+    }
+    #contacto .contacto-columna h3{
+        padding: 0.4em 0;
+    }
+    #contacto .info-main p{
+        display: inline-block;
+    }
+    #contacto .contacto-columna{
+        padding: 1em 0 3em 0;
+        display: table-header-group;
+        margin: 0 1em;
+    }
+    #contacto .redes{
+        display: inline-block;
+    }
+    #contacto .redes img{
+        margin: 0.2em;
+    }
+    .col-12{
+        flex: 0 0 80%;
+    }
+}
+
+/* Seccion de Footer
+------------------------------------------------------------------------- */
+
+footer {
+    background-color: black;
+    padding: 1em;
+    color: white;
+}

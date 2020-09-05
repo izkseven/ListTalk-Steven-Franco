@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListTalk</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="csss/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" >
+    
+</head>
+<body>
+  
+
+<!-- Seccion Header -->
+
+    <header>
+
+      <!-- Barra de Navegación -->
+
+        <nav class="navbar navbar-expand-lg  scrolling-navbar fixed-top">
+            <div class="container-fluid">
+                  <div class="fixed-top">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                      <div class="bg-dark p-4">
+                        <h5 class="text-white h4">Collapsed content</h5>
+                        <span class="text-muted">Toggleable via the navbar brand.</span>
+                      </div>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <img src="imgs/boton-res.png" alt="boton responsive">
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav"  data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><b>Inicio</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#nosotros"><b>Nosotros</b></a>
+                  </li>
+                
+                  <a class="d-none d-sm-none d-md-block" href="index.html"><img src="imgs/logo.png" alt="imagen logo"></a>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="#servicios"><b>Servicios</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#formulario"><b>Registro</b></a>
+                  </li>
+              </ul>
+            </div>
+            </div>
+        </nav>
+
+      <!-- Carousel -->  
+
+        <div id="carouselprincipal" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselprincipal" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselprincipal" data-slide-to="1"></li>
+              <li data-target="#carouselprincipal" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imgs/banner-1.png" class="d-block w-100" alt="carousel-image-2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/banner-2.png" class="d-block w-100" alt="carousel-image-2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/3-banner.png" class="d-block w-100" alt="carousel-image-2">
+                  </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselprincipal" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselprincipal" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+              <div class="container">
+                <div class="texto-flotante"  >
+                    <img src="imgs/Logo-1.png" alt="logo secundario">
+                    <h5><div class="bg-whit"> Que el lenguaje d</div><div class="bg-blue">e señas sea a tus ojos,</div>   <br><div class="bg-whit">lo que las pala</div><div class="bg-blue">bras a tus oídos...</div></h5>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Seccion Nosotros -->
+
+    <div id="nosotros">
+      <div class="container">
+          
+        <div class="row" data-aos="flip-right"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="500">
+        <img src="imgs/banner-4.png" class="fond" alt="fondo basico">
+          <div class="d-none d-md-block col-md-6 u-sible">
+            <img src="imgs/c21.png"  alt="imagennosotros">
+          </div>
+          <div class="col-6 rtext" >
+            <div class="stext">
+              <h2>Nosotros</h2>
+            <h3> Somos un grupo innovador <br class="d-none d-md-block" >
+              que se  ha dado a la <br class="d-none d-md-block">
+              labor de crear un software <br class="d-none d-md-block">
+              con el cual se  podrá<br class="d-none d-md-block"> 
+              facilitar la  comunicación, <br class="d-none d-md-block">
+              comprensión e integración <br class="d-none d-md-block">
+              de  personas con <br class="d-none d-md-block">
+              limitaciones verbales o <br class="d-none d-md-block">
+              auditivas. </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Seccion Servicios -->
+
+    <div id="servicios">
+        <div class="container">
+            
+          <div class="py-5">
+            <h2>Servicios</h2>
+            <div class="container">
+
+              <div class="row" >
+                <div class="col-md-4">
+                    <div class="card text-center">
+                      <div class="card-body">
+                        <div class="img-back-item">
+                        <img src="imgs/chat.png" width="300px" alt="Imagen-chat" class="rounded .img-b" >
+                        <section class="img-back" >
+                          <h2  ><br>Comunícate con clientes desde la web o el móvil usando un chat en vivo.<br><a href=""  >Aquí</a></h2>
+                        </section>
+                      </div>
+                      <h3>Chat Integrado</h3>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-md-4">
+                    <div class="card text-center ">
+                    <div class="card-body ">
+                      <div class="img-back-item">
+                      <img src="imgs/cliente.png" width="300px" alt="Imagen-Cliente" class="rounded .img-b">
+                      <section class="img-back" >
+                        <h2 ><br>Encuentra información de ayuda o soporte sobre nuestros servicios. <br><a href=""  >Aquí</a> </h2>
+                      </section>
+                    </div>
+                      <h3>Ayuda al Cliente</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card text-center ">
+                    <div class="card-body">
+                      <div class="img-back-item">
+                      <img src="imgs/post.png" width="300px" alt="Imagen-post" class="rounded .img-b">
+                      <section class="img-back" >
+                        <h2><br>Podrás personalizar contenido y novedades constantemente.<br> <a href=""  >Aquí</a></h2>
+                      </section>
+                      </div>
+                      <h3>Seccion de Noticias</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+<!-- Seccion Formulario -->
+
+    <div id="formulario">
+        <div class="container">
+          <div class="contact-box" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="500" >
+            <div class="row no-gutters shadow-lg p-1 mb-5 rounded total-reg">
+                <div class="col-xl-5 col-lg-12 register-bg ">
+                 <div class="position-absolute testd p-4">
+                     <h3 class="font-weight-bold text-light">Habla con el corazón...</h3>
+                 </div> <b></b>
+                </div>
+                <div class="col-xl-7 col-lg-12 d-flex">
+                     <div class="container align-self-center p-6">
+                         <h1 class="font-weight-bold mb-3-d-none d-md-block">Crea tu cuenta</h1>
+                         <p class="text-muted mb-5-d-none d-md-block">Ingresa la siguiente información para registrarte.</p>
+      
+                         <form>
+                             <div class="form-row mb-2-d-none d-md-block first-item">
+                                 <div class="form-group col-md-6">
+                                     <label class="font-weight-bold">Nombre <span class="text-danger">*</span></label>
+                                     <input type="text" class="form-control" placeholder="Tu nombre">
+                                 </div>
+                                 <div class="form-group col-md-6">
+                                     <label class="font-weight-bold">Apellido <span class="text-danger">*</span></label>
+                                     <input type="text" class="form-control" placeholder="Tu apellido">
+                                 </div>
+                             </div>
+                             <div class="form-group mb-3-d-none d-md-block">
+                                 <label class="font-weight-bold">Correo electrónico <span class="text-danger">*</span></label>
+                                 <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico">
+                             </div>
+                             <div class="form-group mb-3-d-none d-md-block">
+                                 <label class="font-weight-bold">Contraseña <span class="text-danger">*</span></label>
+                                 <input type="password" class="form-control" placeholder="Ingresa una contraseña">
+                             </div>
+                             <div class="form-group mb-5-d-none d-md-block">
+                                 <div class="form-check">
+                                     <input class="form-check-input" type="checkbox">
+                                     <label class="form-check-label text-muted">He léido y acepto los términos y condiciones.</label>
+    
+                                    </div>
+                             </div>
+                             <button type="button" class="btn btn-primary">Registrarse</button>
+                         </form>
+                         <small class="d-inline-block text-muted mt-5-d-none d-md-block">Todos los derechos reservados | © 2020 ListTalk <br>¿Ya tienes una cuenta? Ingresa <b>Aqui</b></small>
+                         
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+<!-- Seccion Contacto -->
+
+    <div id="contacto">
+      <div class="container">
+        <div class="titlee"><h3>Contacto</h3></div>
+        <div class="row text-centerd-lg-xl-sm-none cont-fn">
+          <div class="col-12-d-none d-lg-xl-block col-6-d-none d-md-block contacto-columna ">
+            <h3>¿Dudas, Inquietudes o Sugerencias?</h3>
+            <p>Si necesita información adicional no dude en contactarnos, en <br class="d-none d-md-block">
+              ListTalk nos encargaremos de resolver sus inquietudes, <br class="d-none d-md-block">
+              brindándole la mejor asistencia.</p>
+              <button type="button" class="btn btn-secondary">Mas Información</button>
+          </div>
+
+          <div class="col-6-d-none d-lg-xl-block col-3-d-none d-md-block contacto-columna ">
+            <h3>Contáctenos</h3>
+            <div class="info-main">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-shop" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+              </svg>
+              <p>Cl. 25 #11-135 Chía, Colombia</p>
+            </div>
+            <div class="info-main">
+              <svg style="display: inline;" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-forward" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.762.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z"/>
+              </svg>
+              <p>(+57) 3002336775</p>
+            </div>
+            <div class="info-main">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+              </svg>
+              <p>info@listtalk.com</p>
+            </div>
+          </div>
+          <div class="col6-d-none d-lg-xl-block col-3-d-none d-md-block contacto-columna r-des">
+            <h3>Nuestras Redes</h3>
+            <div class="redes"><img src="imgs/facebook.svg" alt="" width="32" height="32" title="Bootstrap"></div>
+            <div class="redes"><img src="imgs/instagram.svg" alt="" width="32" height="32" title="Bootstrap"></div>
+            <div class="redes"><img src="imgs/twitter.svg" alt="" width="32" height="32" title="Bootstrap"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Seccion Footer -->
+
+    <footer>
+      <div class="container">
+          <div class="footer-copy">
+            &copy; 2020 ListTalk | Todos los derechos reservados.
+          </div>
+      </div>
+    </footer>
+
+  
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+ AOS.init();
+ </script>
+</body>
+</html>
